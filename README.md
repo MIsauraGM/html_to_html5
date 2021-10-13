@@ -2,21 +2,11 @@
 
 #### **1. El código del fichero estructura_html.html está en HTML haciendo uso de elementos div para estructurarla. Crea un nuevo fichero llamado estructura_html5.html y realiza los cambios oportunos para que esté escrito en HTML5. Sigue las indicaciones de uso de estas etiquetas semánticas que se detallan a continuación:**
 
+---
 **Etiquetas Semánticas HTML5**
-
-<header\/\>
-
-<footer\/\>
-
-<nav\/\>
-
-<figure\/\>
-
-<aside\/\>
-
-<section\/\>
-
-<article\/\>
+```
+<header>   <footer>   <nav>   <figure>    <aside>   <section>   <article>
+```
 
 **<div\/\> (en HTML5 orientado a SEO) :**
 La etiqueta div no ha muerto, sigue ahí y sigue significando lo que siempre ha significado: conjunto de elementos. Debemos usarla como ayuda a la estructura de página: como base para crear el layout de de nuestras páginas, siempre y cuando no exista otra etiqueta de conjunto que represente mejor este papel. En otras palabras, div es la herramienta para unir elementos cuando no podemos asociar significado semántico a este conjunto.
@@ -43,5 +33,7 @@ Idealmente, esta al ser un contenido con significado propio, podría contener en
 
 **<aside\/\> :**
 Por ultimo nos queda la etiqueta aside que viene a ser una etiqueta <section\/\> venida a menos. Y es que aside sirve para indicar que ese bloque es solo un añadido a los bloques que tiene al lado. Son datos extra sin lo que podríamos pasar perfectamente pero que hemos decidido añadir en el documento. Trata de contenido añadido por temas que no tienen nada que ver con el contenido de página (normalmetne esas columnas laterales llenas de tags y banners). Cuando lo incluimos dentro de un <article\/\> nos indica que esa información complementa el artículo pero no forma parte de él (listas de datos, testimoniales, banners relacionados, etc...).
+
+---
 
 #### **2. Crea una página HTML (mi_form_html5.html) que contenga, al menos, cinco tipos de elementos posibles de formulario en HTML5. Todos los elementos deben tener un elemento label relacionado. Puedes consultar el fichero form_html5.html para extraer algunos de los elementos.**
