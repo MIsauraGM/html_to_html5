@@ -1,10 +1,7 @@
 <form action="html5-formularios.html" method="get" autocomplete>
    <h3>Text</h3>
-   <label form="nombre" for="nombre">Nombre:</label>
-   <input name="nombre" id="nombre" type="text" value="" readonly disabled size="40" maxlength="10" pattern="[A-Za-z]{3}" 
-      placeholder="Nombre">
-      <label form="nombre">Nombre:<input name="nombre2" type="text" value="" readonly disabled size="40" maxlength="10" pattern="[A-Za-z]{3}" 
-          placeholder="Nombre"></label>
+   <label>Nombre: <input name="nombre" type="text" value="" readonly disabled size="40" maxlength="10" pattern="[A-Za-z]{3}" 
+      placeholder="Nombre"></label>
    <h3>Radio</h3>
    <input type="radio" name="gender" value="male" checked> Masculino
    <br>
@@ -12,8 +9,8 @@
    <br>
    <input type="radio" name="gender" value="other"> Otros
    <h3>Select</h3>
-   <label form="cars">Coches:</label>
-   <select name="cars">
+   <label for="cars">Coches:</label>
+   <select name="cars" id="cars">
       <option value="volvo">Volvo</option>
       <option value="saab">Saab</option>
       <option value="fiat">Fiat</option>
@@ -24,8 +21,8 @@
 El gato estaba jugando en el jardín.
 </textarea>
    <h3>Datalist</h3>
-   <label form="nombre">Buscador:</label>
-   <input list="browsers">
+   <label for="browsers">Buscador:</label>
+   <input list="browsers" id="browsers">
    <datalist id="browsers">
       <option value="Internet Explorer">
       <option value="Firefox">
@@ -34,47 +31,34 @@ El gato estaba jugando en el jardín.
       <option value="Safari">
    </datalist>
    <h3>Password</h3>
-   <label form="password">Contraseña:</label>
-   <input type="password" name="psw" required> 
+   <label>Contraseña: <input type="password" name="psw" id="psw" required></label>
    <h3>Checkbox</h3>
    <input type="checkbox" name="vehicle1" value="Bike"> Tengo una bicicleta<br>
    <input type="checkbox" name="vehicle2" value="Car"> Tento un coche 
    <h3>Color</h3>
-   <label form="color">Color:</label>
-   <input type="color" name="favcolor">
+   <label>Color: <input type="color" name="favcolor"></label>
    <h3>Fecha</h3>
-   <label form="date">Fecha:</label>
-   <input type="date" name="bday" min="2000-01-02">
+   <label>Fecha: <input type="date" name="bday" min="2000-01-02"></label>
    <h3>Datetime</h3>
-   <label form="datetime-">Fecha y hora:</label>
-   <input type="datetime-local" name="bdaytime">
+   <label>Fecha y hora: <input type="datetime-local" name="bdaytime"></label>
    <h3>Email</h3>
-   <label form="email">Email:</label>
-   <input type="email" name="email" autocomplete="off">
+   <label>Email: <input type="email" name="email" autocomplete="off"></label>
    <h3>Number</h3>
-   <label form="number">Número:</label>
-   <input type="number" name="quantity" min="1" max="25" step="3">
+   <label>Número: <input type="number" name="quantity" min="1" max="25" step="3"></label>
    <h3>Points</h3>
-   <label form="points">Número desde y hasta:</label>
-   <input type="number" name="points" min="0" max="100" step="10" value="30">
+   <label>Número desde y hasta: <input type="number" name="points" min="0" max="100" step="10" value="30"></label>
    <h3>Range</h3>
-   <label form="range">rango:</label>
-   <input type="range" name="points" min="0" max="10">
+   <label>rango: <input type="range" name="points" min="0" max="10"></label>
    <h3>Search</h3>
-   <label form="search">Búsqueda:</label>
-   <input type="search" name="googlesearch">	 
+   <label>Búsqueda: <input type="search" name="googlesearch"></label>	 
    <h3>Time</h3>
-   <label form="time">Hora:</label>
-   <input type="time" name="usr_time">
+   <label>Hora: <input type="time" name="usr_time"></label>
    <h3>Url</h3>
-   <label form="url">Url:</label>
-   <input type="url" name="homepage">
+   <label>Url: <input type="url" name="homepage"></label>
    <h3>Week</h3>
-   <label form="week">Semana año:</label>
-   <input type="week" name="week_year">
+   <label>Semana año: <input type="week" name="week_year"></label>
    <h3>File</h3>
-   <label form="fichero">Ficheros:</label>
-   <input type="file" name="img" multiple>
+   <label>Ficheros: <input type="file" name="img" multiple></label>
    <br><br>
    <input type="submit" value="Submit">
 </form>
