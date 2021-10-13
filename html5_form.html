@@ -1,8 +1,10 @@
 <form action="html5-formularios.html" method="get" autocomplete>
    <h3>Text</h3>
    <label form="nombre" for="nombre">Nombre:</label>
-   <input name="nombre" type="text" value="" readonly disabled size="40" maxlength="10" pattern="[A-Za-z]{3}" 
+   <input name="nombre" id="nombre" type="text" value="" readonly disabled size="40" maxlength="10" pattern="[A-Za-z]{3}" 
       placeholder="Nombre">
+      <label form="nombre">Nombre:<input name="nombre2" type="text" value="" readonly disabled size="40" maxlength="10" pattern="[A-Za-z]{3}" 
+          placeholder="Nombre"></label>
    <h3>Radio</h3>
    <input type="radio" name="gender" value="male" checked> Masculino
    <br>
